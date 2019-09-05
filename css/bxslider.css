@@ -1,0 +1,24 @@
+@charset "utf-8";
+/* CSS Document */
+.bx-wrapper .bx-pager {
+    bottom: -95px;
+  }
+  
+  .bx-wrapper .bx-pager a {
+    border: solid #ccc 1px;
+    display: block;
+    margin: 0 5px;
+    padding: 3px;
+  }
+  
+  .bx-wrapper .bx-pager a:hover,
+  .bx-wrapper .bx-pager a.active {
+    border: solid #5280DD 1px;
+  }
+  
+  .bx-wrapper {
+    margin-bottom: 120px;
+  }
+ #bx-pager a img{padding:0px 3px}
+ #bx-pager a img:hover{box-shadow:0px 0px 5px 2px gray}
+

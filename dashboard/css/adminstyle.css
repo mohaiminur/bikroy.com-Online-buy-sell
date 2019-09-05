@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* CSS Document */
+*{padding:0; margin:0}
+input[type="text"], input[type="number"],input[type="email"],input[type="password"], input[type="date"]{height:30px; border-radius:10px; padding-left:5px; width:90%}
+input[type="button"], input[type="reset"]{padding:10px}
+ .fieldsz {
+  height: 30px;
+  border-radius: 10px;
+  padding-left: 5px;
+  width: 90%;
+}
+
+.jqte{margin:0px 10px 0px 0px; width:90%}
+
+
+		.contact-link{
+			float: right;
+			position: relative;
+			
+		}
+		.contact-link ul li{
+			list-style: none;
+			display: inline-block;
+			margin-right: 7px;
+		}
+		.contact-link ul li a{
+			
+
+		}
+		.contact-link ul li a img{
+			border-radius: 4px;
+			box-shadow: 0px 0px 1px 0px #e5e5e5;
+			transform: rotate(-720deg);
+			transition: transform 1.5s ease-in-out;
+			-webkit-filter: grayscale(1);
+			-moz-filter: grayscale(1);
+			filter: grayscale(1);
+	
+		}
+		.contact-link ul li a img:hover{
+			transform: rotate(720deg);
+			transition: transform 1.5s ease-in-out;
+			-webkit-filter: grayscale(0);
+			-moz-filter: grayscale(0);
+			filter: grayscale(0);
+		}  
+      
